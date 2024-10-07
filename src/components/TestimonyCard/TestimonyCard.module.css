@@ -3,6 +3,8 @@
 .container {
   border-radius: 8px;
   padding: 1.9rem 1.7rem;
+  background-repeat: no-repeat;
+  background-position: top right 10%;
 }
 
 .header {
