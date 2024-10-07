@@ -4,6 +4,7 @@ import imageJonathan from './assets/images/image-jonathan.jpg';
 import imageJeanette from './assets/images/image-jeanette.jpg';
 import imagePatrick from './assets/images/image-patrick.jpg';
 import imageKira from './assets/images/image-kira.jpg';
+import quotationBackground from './assets/images/bg-pattern-quotation.svg'
 
 export const testimonies: ITestimony[] = [
   {
@@ -15,6 +16,7 @@ export const testimonies: ITestimony[] = [
       '“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best – and most grueling – time of my life. Since completing the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”',
     color: 'moderate-violet',
     theme: 'dark',
+    backgroundImage: quotationBackground
   },
   {
     image: imageJonathan,
