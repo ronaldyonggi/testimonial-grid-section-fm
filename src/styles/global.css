@@ -1,5 +1,7 @@
 @import './fonts.css';
+@import './variables.css';
 
 body {
-    font-family: var(--font-family-barlow);
+  font-family: var(--font-family-barlow);
+  background-color: var(--color-light-grayish-blue);
 }
