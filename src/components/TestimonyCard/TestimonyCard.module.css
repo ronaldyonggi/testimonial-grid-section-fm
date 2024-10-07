@@ -1,0 +1,41 @@
+@import url('../../styles/variables.css');
+
+.container {
+  border-radius: 8px;
+  padding: 1.9rem 1.7rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 3rem;
+}
+
+.nameWrapper {
+  margin-left: 1.5rem;
+}
+
+.name {
+  font-size: 0.95rem;
+}
+
+.verified {
+  opacity: var(--opacity-verified);
+  font-size: 0.84rem;
+}
+
+.quote {
+  font-weight: var(--font-weight-bold);
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin-top: 1rem;
+}
+
+.review {
+  opacity: var(--opacity-review);
+  margin-top: 1rem;
+}
