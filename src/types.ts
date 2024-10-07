@@ -5,4 +5,5 @@ export interface ITestimony {
     image: string
     color: string
     theme: string
+    backgroundImage? : string
 }
