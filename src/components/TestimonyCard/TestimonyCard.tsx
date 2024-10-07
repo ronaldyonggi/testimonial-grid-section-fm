@@ -12,6 +12,7 @@ export default function TestimonyCard({ testimony }: TestimonyCardProps) {
       testimony.theme === 'dark'
         ? 'var(--color-light-grayish-blue)'
         : 'var(--color-very-dark-grayish-blue)',
+        backgroundImage: testimony.backgroundImage ? `url(${testimony.backgroundImage})` : 'none',
   };
 
   const imageBorder = {
