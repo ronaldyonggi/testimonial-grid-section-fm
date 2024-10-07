@@ -3,16 +3,22 @@ import styles from './TestimonyCard.module.css';
 
 interface TestimonyCardProps {
   testimony: ITestimony;
+  className: string;
 }
 
-export default function TestimonyCard({ testimony }: TestimonyCardProps) {
+export default function TestimonyCard({
+  testimony,
+  className,
+}: TestimonyCardProps) {
   const coloring = {
     backgroundColor: `var(--color-${testimony.color})`,
     color:
       testimony.theme === 'dark'
         ? 'var(--color-light-grayish-blue)'
         : 'var(--color-very-dark-grayish-blue)',
-        backgroundImage: testimony.backgroundImage ? `url(${testimony.backgroundImage})` : 'none',
+    backgroundImage: testimony.backgroundImage
+      ? `url(${testimony.backgroundImage})`
+      : 'none',
   };
 
   const imageBorder = {
@@ -20,7 +26,7 @@ export default function TestimonyCard({ testimony }: TestimonyCardProps) {
   };
 
   return (
-    <div className={styles.container} style={coloring}>
+    <div className={`${styles.container} ${className}`} style={coloring}>
       <div className={styles.header}>
         <img
           src={testimony.image}
