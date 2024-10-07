@@ -1,13 +1,28 @@
 :root {
-  /* Color */
+  /* Primary Colors */
   --color-moderate-violet: hsl(263, 55%, 52%);
+  --color-moderate-violet-border: hsla(263, 79%, 74%, 0.655);
+
   --color-very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --color-very-dark-grayish-blue-border: hsla(217, 32%, 59%, 0.639);
+
   --color-very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --color-very-dark-blackish-blue-border: hsla(216, 24%, 42%, 0.627);
+
   --color-white: hsl(0, 0%, 100%);
+  --color-white-border: hsl(0, 0%, 81%);
+
+  /* Neutral Colors */
   --color-light-gray: hsl(0, 0%, 81%);
   --color-light-grayish-blue: hsl(210, 46%, 95%);
 
   /* Typography */
   --font-family-barlow: 'Barlow Semi Condensed', sans-serif;
   --font-size: 13px;
+  --font-weight-regular: 500;
+  --font-weight-bold: 600;
+
+  /* Opacity */
+  --opacity-verified: 0.5;
+  --opacity-review: 0.7;
 }
