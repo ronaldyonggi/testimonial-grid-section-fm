@@ -4,7 +4,7 @@ import imageJonathan from './assets/images/image-jonathan.jpg';
 import imageJeanette from './assets/images/image-jeanette.jpg';
 import imagePatrick from './assets/images/image-patrick.jpg';
 import imageKira from './assets/images/image-kira.jpg';
-import quotationBackground from './assets/images/bg-pattern-quotation.svg'
+import quotationBackground from '/bg-pattern-quotation.svg'
 
 export const testimonies: ITestimony[] = [
   {
